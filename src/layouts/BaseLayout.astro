@@ -13,10 +13,12 @@ import QuietFooter from "../components/QuietFooter.astro";
     {title && <title>{title}</title>}
 
     <!-- URSIO Global Styles -->
-    <link rel="stylesheet" href="/styles/tokens.css" />
-    <link rel="stylesheet" href="/styles/typography.css" />
-    <link rel="stylesheet" href="/styles/base.css" />
-    <link rel="stylesheet" href="/styles/layout.css" />
+    <style is:global>
+      @import "../styles/tokens.css";
+      @import "../styles/typography.css";
+      @import "../styles/base.css";
+      @import "../styles/layout.css";
+    </style>
 
     <!-- SEO & Custom Head Slot -->
     <slot name="head" />

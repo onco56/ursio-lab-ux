@@ -10,6 +10,14 @@
   --color-accent-soft: #D6C1A7;
 
   /* -------------------------------------------
+     Muted-Erweiterung – Quiet Earth Tones
+  ------------------------------------------- */
+  --color-muted-1: #E8E4DC;
+  --color-muted-2: #D6D1C8;
+  --color-muted-3: #C5BFB5;
+  --color-muted-4: #B3ADA3;
+
+  /* -------------------------------------------
      Typografie – URSIO Quiet Typography
   ------------------------------------------- */
   --font-sans: "Inter", system-ui, sans-serif;
@@ -27,16 +35,16 @@
   --text-2xl: 1.75rem;
   --text-3xl: 2.25rem;
 
-  /* -------------------------------------------
-     Abstände (Spacing Scale – URSIO v1.3)
-  ------------------------------------------- */
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
-  --space-3: 0.75rem;
-  --space-4: 1rem;
-  --space-5: 1.5rem;
-  --space-6: 2rem;
-  --space-7: 3rem;
+ /* -------------------------------------------
+   Abstände (Quiet-Spacing Scale v1.5)
+------------------------------------------- */
+--space-1: 4px;
+--space-2: 6px;
+--space-3: 10px;
+--space-4: 16px;
+--space-5: 26px;
+--space-6: 42px;
+--space-7: 68px;
 
   /* -------------------------------------------
      Layout Tokens
@@ -55,4 +63,3 @@
   --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.06);
   --shadow-medium: 0 4px 18px rgba(0, 0, 0, 0.08);
 }
-

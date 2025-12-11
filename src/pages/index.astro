@@ -1,7 +1,7 @@
 ---
-import StartPageLayout from "../layouts/StartPageLayout.astro";
-import StartPageSectionWrapper from "../components/start/StartPageSectionWrapper.astro";
+import LandingPageLayout from "../layouts/LandingPageLayout.astro";
 
+import StartPageSectionWrapper from "../components/start/StartPageSectionWrapper.astro";
 import IntroSection from "../components/start/IntroSection.astro";
 import NeutralSection from "../components/start/NeutralSection.astro";
 import TwoColumnSection from "../components/start/TwoColumnSection.astro";
@@ -11,7 +11,7 @@ import CallToActionSection from "../components/start/CallToActionSection.astro";
 import CTAButton from "../components/start/CTAButton.astro";
 ---
 
-<StartPageLayout>
+<LandingPageLayout title="URSIO – Startseite">
   <fragment slot="head">
     <title>URSIO – Startseite</title>
     <meta name="description" content="URSIO – ein ruhiger, modularer und klar strukturierter Ort für Texte, Wissen und Exploration." />
@@ -75,5 +75,4 @@ import CTAButton from "../components/start/CTAButton.astro";
             
   </section>
 
-</StartPageLayout>
-
+</LandingPageLayout>

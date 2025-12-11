@@ -1,6 +1,6 @@
 ---
 import { getCollection, getEntryBySlug } from "astro:content";
-import LandingPageLayout from "../../layouts/LandingPageLayout.astro";
+import ContentLayout from "../../layouts/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const entries = await getCollection("lp");
@@ -23,7 +23,7 @@ const description =
   `Eine Landingpage auf URSIO mit dem Titel: ${entry.data.title}.`;
 ---
 
-<LandingPageLayout title={entry.data.title}>
+<ContentLayout title={entry.data.title} date={entry.data.date} intro={entry.data.intro}>
   <fragment slot="head">
     <title>URSIO – {entry.data.title}</title>
     <meta name="description" content={description} />
@@ -35,15 +35,8 @@ const description =
   </fragment>
 
   <section class="lp-page">
-
-    <header>
-      <h1>{entry.data.title}</h1>
-    </header>
-
     <article>
       <Content />
     </article>
-
   </section>
-</LandingPageLayout>
-
+</ContentLayout>

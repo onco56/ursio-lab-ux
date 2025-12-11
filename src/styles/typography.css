@@ -1,61 +1,53 @@
 /* -------------------------------------------
-   URSIO CI v1.3 – Quiet Typography System
+   URSIO Quiet-Poetic Typography System
+   Version: Core Replacement
+------------------------------------------- */
+
+/* -------------------------------------------
+   Basis-Typografie
 ------------------------------------------- */
 
 body {
   font-family: var(--font-serif);
+  font-size: var(--text-size);
+  line-height: var(--text-line);
   color: var(--color-ink);
-  line-height: var(--line-height-body);
-  font-size: var(--text-md);
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
 }
 
-/* -------------------------------------------
-   Überschriften – sanft, ruhig, zurückhaltend
-------------------------------------------- */
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  color: var(--color-ink);
-  line-height: var(--line-height-tight);
-  margin-top: var(--space-5);
-  margin-bottom: var(--space-3);
-  font-weight: 600;
+p {
+  margin-bottom: var(--space-4);
+  font-size: var(--text-size);
+  line-height: var(--text-line);
 }
 
+/* -------------------------------------------
+   Struktur-Typografie – Überschriften
+------------------------------------------- */
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  color: var(--color-ink);
+  font-weight: 600;
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-3);
+}
+
+/* Quiet-Poetic Sizes & Line Heights */
 h1 {
-  font-size: var(--text-3xl);
+  font-size: var(--h1-size);
+  line-height: var(--h1-line);
 }
 
 h2 {
-  font-size: var(--text-2xl);
+  font-size: var(--h2-size);
+  line-height: var(--h2-line);
 }
 
 h3 {
-  font-size: var(--text-xl);
-}
-
-h4 {
-  font-size: var(--text-lg);
-}
-
-h5 {
-  font-size: var(--text-md);
-}
-
-h6 {
-  font-size: var(--text-sm);
-}
-
-/* -------------------------------------------
-   Absätze
-------------------------------------------- */
-
-p {
-  margin-bottom: var(--space-4);
-  line-height: var(--line-height-body);
-  font-size: var(--text-md);
+  font-size: var(--h3-size);
+  line-height: var(--h3-line);
 }
 
 /* -------------------------------------------
@@ -65,7 +57,7 @@ p {
 ul,
 ol {
   margin: var(--space-4) 0 var(--space-4) var(--space-5);
-  line-height: var(--line-height-body);
+  line-height: var(--text-line);
 }
 
 li {
@@ -96,11 +88,11 @@ blockquote {
   border-left: 3px solid var(--color-accent);
   color: var(--color-ink-soft);
   font-style: italic;
-  line-height: var(--line-height-loose);
+  line-height: var(--text-line);
 }
 
 /* -------------------------------------------
-   Code & Pre (sanfte Monospace-Ruhe)
+   Code & Preformat – Quiet Monospace Zone
 ------------------------------------------- */
 
 code {
@@ -119,3 +111,21 @@ pre {
   margin-bottom: var(--space-5);
 }
 
+/* -------------------------------------------
+   UI-Typografie (Navigation, Footer)
+------------------------------------------- */
+
+nav,
+.nav-row {
+  font-family: var(--font-sans);
+  font-size: var(--ui-size);
+  line-height: var(--ui-line);
+}
+
+footer,
+.footer {
+  font-family: var(--font-sans);
+  font-size: var(--ui-size);
+  line-height: var(--ui-line);
+  color: var(--color-ink-soft);
+}

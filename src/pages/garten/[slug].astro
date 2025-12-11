@@ -1,6 +1,6 @@
 ---
 import { getCollection, getEntryBySlug } from "astro:content";
-import GardenLayout from "../../layouts/GardenLayout.astro";
+import ContentLayout from "../../layouts/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const entries = await getCollection("garten");
@@ -18,13 +18,12 @@ if (!entry) {
 
 const { Content } = await entry.render();
 
-// fallback description
 const description =
   entry.data.description ??
   `Ein Eintrag im Wissensgarten von URSIO: ${entry.data.title}.`;
 ---
 
-<GardenLayout title={entry.data.title}>
+<ContentLayout title={entry.data.title} date={entry.data.date} intro={entry.data.intro}>
   <fragment slot="head">
     <title>URSIO – {entry.data.title}</title>
     <meta name="description" content={description} />
@@ -36,15 +35,8 @@ const description =
   </fragment>
 
   <section class="garden-page">
-
-    <header>
-      <h1>{entry.data.title}</h1>
-    </header>
-
     <article>
       <Content />
     </article>
-
   </section>
-</GardenLayout>
-
+</ContentLayout>

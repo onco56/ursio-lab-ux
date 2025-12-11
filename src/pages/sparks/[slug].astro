@@ -1,6 +1,6 @@
 ---
 import { getCollection, getEntryBySlug } from "astro:content";
-import SparkLayout from "../../layouts/SparkLayout.astro";
+import ContentLayout from "../../layouts/ContentLayout.astro";
 
 export async function getStaticPaths() {
   const sparks = await getCollection("sparks");
@@ -18,13 +18,12 @@ if (!entry) {
 
 const { Content } = await entry.render();
 
-// fallback description
 const description =
   entry.data.description ??
   `Ein Spark auf URSIO mit dem Titel: ${entry.data.title}.`;
 ---
 
-<SparkLayout title={entry.data.title}>
+<ContentLayout title={entry.data.title} date={entry.data.date} intro={entry.data.intro}>
   <fragment slot="head">
     <title>URSIO – {entry.data.title}</title>
     <meta name="description" content={description} />
@@ -36,15 +35,8 @@ const description =
   </fragment>
 
   <section class="spark-page">
-
-    <header>
-      <h1>{entry.data.title}</h1>
-    </header>
-
     <article>
       <Content />
     </article>
-
   </section>
-</SparkLayout>
-
+</ContentLayout>

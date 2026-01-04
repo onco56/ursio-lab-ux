@@ -56,6 +56,30 @@ h3 {
 }
 
 /* -------------------------------------------
+   UX-Experiment H2-Randnotizen
+   siehe ux_decisions.md (2026-01-04)
+------------------------------------------- */
+
+.content-markdown h2 {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.content-markdown h2 a {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+  opacity: 0.8;
+}
+
+.content-markdown h2 a:hover {
+  opacity: 1;
+}
+
+/* -------------------------------------------
    Listen
 ------------------------------------------- */
 

@@ -1,4 +1,4 @@
-w---
+---
 title: "Wie Bedeutung entsteht, bevor Worte fallen"
 slug: "bedeutung-vor-worten"
 description: "Wie Bedeutung in Beziehung, Wahrnehmung und Situation entsteht, bevor sie sprachlich formuliert wird."

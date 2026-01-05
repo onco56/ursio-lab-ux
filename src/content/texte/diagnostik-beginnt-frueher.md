@@ -7,13 +7,13 @@ date: "2025-01-01"
 tags: [ursio, psychosomatik, medizin, diagnostik, wahrnehmung]
 ---
 
-# 1. KONKRETER EINSTIEG
+## 1. KONKRETER EINSTIEG
 In einer Sprechstunde schildert ein Patient unspezifische Beschwerden. Noch bevor Laborwerte vorliegen oder bildgebende Verfahren veranlasst sind, entwickelt der behandelnde Arzt eine erste Vorstellung davon, in welche Richtung die Abklärung gehen könnte. Diese Orientierung entsteht aus Gespräch, Auftreten und bisherigen Erfahrungen, nicht aus einem formalen Befund.
 
-# 2. FRAGEÖFFNUNG
+## 2. FRAGEÖFFNUNG
 Wann beginnt Diagnostik tatsächlich? Die Irritation liegt darin, dass diagnostische Orientierung oft vorhanden ist, bevor objektivierbare Daten erhoben oder ausgewertet wurden, obwohl die formale Diagnostik erst später einsetzt.
 
-# 3. ANALYTISCHER KERN
+## 3. ANALYTISCHER KERN
 Frühe diagnostische Prozesse beginnen mit der Wahrnehmung von Abweichungen. Kleine Unstimmigkeiten im Beschwerdebild, im Verhalten oder im zeitlichen Verlauf werden registriert, ohne sofort benannt zu werden.
 
 Mustererkennung spielt dabei eine zentrale Rolle. Erfahrungen aus früheren Fällen ermöglichen es, Konstellationen wiederzuerkennen, auch wenn sie noch unvollständig sind. Diese Muster sind probabilistisch, nicht festlegend.
@@ -26,11 +26,11 @@ Kontextintegration ergänzt den Prozess. Lebenssituation, psychosoziale Faktoren
 
 Diagnostik beginnt damit als ein kontinuierlicher Orientierungsprozess, nicht erst mit der formalen Ergebniserhebung.
 
-# 4. ERICKSON-IMPULS
+## 4. ERICKSON-IMPULS
 Vielleicht lässt sich ein Moment erinnern, in dem sich eine diagnostische Richtung angedeutet hat, ohne dass sie bereits festgelegt oder ausgesprochen war.
 
-# 5. ZWEITE KLÄRUNG
+## 5. ZWEITE KLÄRUNG
 Diese frühen Prozesse erhöhen diagnostische Effizienz, bergen aber auch Risiken. Sie können Genauigkeit fördern, wenn sie reflektiert bleiben, oder zu Fehlannahmen führen, wenn sie unkritisch verfestigt werden. Verantwortung liegt darin, frühe Orientierung als vorläufig zu behandeln und offen für Korrektur zu halten.
 
-# 6. SCHLUSS
+## 6. SCHLUSS
 Wenn Diagnostik als Prozess verstanden wird, der vor dem Befund beginnt, verändert sich der Blick auf klinisches Denken. Befunde erscheinen dann nicht als Ausgangspunkt, sondern als Korrektive innerhalb eines bereits laufenden Orientierungsprozesses.

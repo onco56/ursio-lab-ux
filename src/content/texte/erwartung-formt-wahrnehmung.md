@@ -7,13 +7,13 @@ date: "2025-01-01"
 tags: [ursio, psychosomatik, wahrnehmung, erwartung, bedeutung]
 ---
 
-# 1. KONKRETER EINSTIEG
+## 1. KONKRETER EINSTIEG
 Ein Patient erhält vor einer Untersuchung den Hinweis auf mögliche Nebenwirkungen. In den folgenden Stunden treten genau diese Empfindungen auf, obwohl objektive Befunde unauffällig bleiben. In anderen Situationen werden identische körperliche Signale kaum bemerkt, wenn keine entsprechende Erwartung besteht. Das erlebte Symptomprofil verändert sich, obwohl sich der körperliche Zustand nicht messbar unterscheidet.
 
-# 2. FRAGEÖFFNUNG
+## 2. FRAGEÖFFNUNG
 Was sehen, fühlen oder hören wir tatsächlich – und was erwarten wir zu sehen, zu fühlen oder zu hören? Die Irritation liegt darin, dass Wahrnehmung nicht erst nach der Aufnahme von Reizen geformt wird, sondern bereits vorbewertet erscheint.
 
-# 3. ANALYTISCHER KERN
+## 3. ANALYTISCHER KERN
 Erwartung wirkt als top-down-Prozess. Vorannahmen beeinflussen, wie sensorische Informationen verarbeitet und gewichtet werden. Wahrnehmung entsteht aus der Integration aktueller Reize mit bestehenden Erwartungen.
 
 Vorannahmen strukturieren diesen Prozess. Sie legen fest, welche Signale als relevant gelten und welche ausgeblendet werden. Dadurch werden bestimmte Eindrücke verstärkt wahrgenommen, andere abgeschwächt oder übersehen.
@@ -26,11 +26,11 @@ Aufmerksamkeitslenkung verstärkt den Effekt zusätzlich. Erwartete Phänomene w
 
 Erwartung formt Wahrnehmung somit aktiv, bevor bewusste Bewertung einsetzt.
 
-# 4. ERICKSON-IMPULS
+## 4. ERICKSON-IMPULS
 Vielleicht lässt sich eine aktuelle Erwartung kurz wahrnehmen, ohne sie zu bestätigen oder zu hinterfragen.
 
-# 5. ZWEITE KLÄRUNG
+## 5. ZWEITE KLÄRUNG
 Für Psychosomatik, Diagnostik und Therapie bedeutet dieses Verständnis, dass Erwartungen als Teil des Geschehens berücksichtigt werden müssen. Sie sind weder Täuschung noch reine Einbildung, sondern wirksame Einflussfaktoren. In der Selbstbeobachtung eröffnet sich die Möglichkeit, Wahrnehmung differenzierter zu betrachten, ohne sie zu relativieren.
 
-# 6. SCHLUSS
+## 6. SCHLUSS
 Wenn Wahrnehmung als gestalteter Prozess verstanden wird, verändert sich ihr Stellenwert. Sie erscheint nicht mehr als neutrales Abbild der Realität, sondern als Ergebnis eines Zusammenspiels von Reiz, Erwartung und Bedeutung.

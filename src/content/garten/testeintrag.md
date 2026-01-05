@@ -6,6 +6,8 @@ date: "2025-01-01"
 tags: ["garten", "test"]
 ---
 
+## Garten
+
 Dies ist ein Testeintrag im Wissensgarten.
 
 Er dient nur dazu zu überprüfen, ob die Slug-Seite korrekt funktioniert.

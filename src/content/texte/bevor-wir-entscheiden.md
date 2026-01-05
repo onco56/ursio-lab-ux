@@ -6,8 +6,7 @@ draft: false
 
 # Bevor wir entscheiden
 
-## 1. KONKRETER EINSTIEG
-<a href="/sparks/entscheidung">Randgedanke</a>
+## 1. KONKRETER EINSTIEG <a href="/sparks/entscheidung">Randgedanke</a>
 
 Eine Person steht morgens vor dem Kleiderschrank. Mehrere Optionen sind verfügbar. Noch bevor ein bewusstes Abwägen beginnt, greift die Hand nach einem bestimmten Kleidungsstück. Erst danach taucht der Gedanke auf, warum gerade dieses gewählt wurde. Ähnliche Abläufe zeigen sich in Experimenten zur Handlungswahl: Bereits Sekundenbruchteile vor der bewussten Entscheidung lassen sich im Gehirn Aktivitätsmuster nachweisen, die mit der späteren Handlung korrelieren.
 

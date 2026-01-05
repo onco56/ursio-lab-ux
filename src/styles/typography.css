@@ -33,7 +33,6 @@ p {
 
 h1, h2, h3 {
   font-family: var(--font-serif);
-  color: var(--color-ink);
   font-weight: 600;
   margin-top: var(--space-5);
   margin-bottom: var(--space-3);
@@ -56,10 +55,20 @@ h3 {
 }
 
 /* -------------------------------------------
-   UX-Experiment H2-Randnotizen
+   UX-Experiment H2 – leise Orientierung (Phase 1)
    siehe ux_decisions.md (2026-01-04)
 ------------------------------------------- */
 
+/* Grunddarstellung: immer leiser als Fließtext */
+.content-markdown h2 {
+  font-size: 0.9em;              /* kleiner als Fließtext */
+  line-height: 1.35;
+  color: var(--color-ink-soft);  /* dezenter */
+  font-weight: 500;
+  font-style: italic;            /* Orientierung, nicht dominant */
+}
+
+/* Titel + optionaler Link bleiben im Textfluss */
 .content-markdown h2 {
   display: inline-flex;
   align-items: baseline;
@@ -67,16 +76,17 @@ h3 {
   gap: var(--space-2);
 }
 
+/* Optionaler Bewegungslink – noch leiser */
 .content-markdown h2 a {
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-weight: 400;
   color: var(--color-ink-soft);
+  opacity: 0.75;
   white-space: nowrap;
-  opacity: 0.8;
 }
 
 .content-markdown h2 a:hover {
-  opacity: 1;
+  opacity: 0.95;
 }
 
 /* -------------------------------------------
